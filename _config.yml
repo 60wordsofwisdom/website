@@ -1,0 +1,103 @@
+#-------------------------------
+# Site Settings
+title: 60 w.o.w
+logo: # You can add own logo. For example '/images/logo.png'.
+description: 60 Words of Wisdom for you each day! New quotes and ideas which open up your mind to new perspectives.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Author Settings
+author:
+  author__name: Anonymous
+  author__bio: The only thing this site is meant for is to provide you 60 words representing ideas each day, I don't care about knowing you! So shouldn't you...
+  author__avatar: '/images/assets/pfp.jpg'
+
+social:
+#- {icon: "ion-logo-twitter", link: "https://twitter.com"}
+#- {icon: "ion-logo-facebook", link: "https://facebook.com"}
+#- {icon: "ion-logo-instagram", link: "https://instagram.com"}
+#- {icon: "ion-logo-pinterest", link: "https://pinterest.com"}
+#- {icon: "ion-logo-youtube", link: "https://youtube.com"}
+
+# Example of adding a new link to the footer - {icon: "ion-logo-dribbble", link: "https://dribbble.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: Hey, are you curious to gain knowledge?
+  hero__description: What are you waiting for? scroll down and start reading!
+  hero__image: '/images/assets/abstract-art.jpg'
+
+
+#-------------------------------
+# Newsletter
+mailchimp:  # To enable the mailchimp form, use the value 'enable'. To disable the form, leave the field blank.
+mailchimp__identifier:  # Add your MailChimp form identifier. For example - frnla.us6.list-manage.com/subscribe/post?u=6314d69a3f315af7ce3fb00a0&amp;id=3038727cc3
+mailchimp__input__text: Subscribe here
+mailchimp__button__text: Get a new tip
+
+
+#-------------------------------
+# Gallery Footer Section
+gallery:
+  gallery__title: Random Images, idk why are they here 🤷🏻‍♂️
+  gallery__columns: 3
+  gallery__images:
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=1'
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=2'
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=3'
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=4'
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=5'
+    - alt: 'random image'
+      url: 'https://source.unsplash.com/random/300x200?sig=6'
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: your@email.com # Add your email for contant form
+  description: ok # Add a description of your form
+
+# NOTE
+# Menso theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
+
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 9
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+
+include:
+  - _pages
+
+sass:
+  sass_dir: _sass
+  style: compressed
