@@ -4,7 +4,7 @@ title: 60 w.o.w
 logo: # You can add own logo. For example '/images/logo.png'.
 description: 60 Words of Wisdom for you each day! New quotes and ideas which open up your mind to new perspectives.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://60wordsofwisdom.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
