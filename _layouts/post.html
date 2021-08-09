@@ -77,8 +77,14 @@ layout: default
 
     <div class="post__content">
       {{ content }}
+
+      Keep sharing!
+      <br /><br />
+      
+      {% if page.image-credits %}
       Cover image credits: {{ page.image-credits }}
       <br /><br />
+      {% endif %}
     </div>
 
     <div class="post__share">

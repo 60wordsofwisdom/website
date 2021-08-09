@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  The glimpse
-description: Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative a...
+title:  The Glimpse
+description: Glimpse of what to expect from this site...
 image:  'https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg'
 image-credits: 'Pinterest'
 tags: [ General ]
