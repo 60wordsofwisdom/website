@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Your Mind - The Only Barrier
+title:  Life Is Short - Make It Meaningful
 description: How much time will you have in your entire life? Don't say there're years left, years will be wasted in the same way as the days!
 image:  'https://www.christgovernmentministries.life/wp-content/uploads/2018/08/Sunset-Through-Reeds-Ministry-Worship-Background-1920x960.jpg'
 tags: [ Life ]
